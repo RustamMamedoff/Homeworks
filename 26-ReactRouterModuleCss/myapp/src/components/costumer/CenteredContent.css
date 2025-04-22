@@ -1,0 +1,39 @@
+.centered-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .centered-section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #222;
+  }
+  
+  .centered-section p {
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 25px;
+    max-width: 600px;
+  }
+  
+  .info-box {
+    border: 1px solid black;
+    padding: 20px;
+    width: 450px;
+    height: 100px;
+    max-width: 600px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #fdfdfd;
+  }
+  
+  .info-box p {
+    margin: 0;
+    font-size: 15px;
+    color: #000000;
+    font-size: 16px;
+  }
+  

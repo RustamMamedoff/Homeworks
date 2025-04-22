@@ -1,0 +1,86 @@
+.hero-container {
+    background-color: rgb(32, 30, 27);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links li {
+    cursor: pointer;
+    transition: color 0.3s;
+    color: rgb(105, 99, 99);
+  }
+  
+  .nav-links li:hover {
+    color: #e7e7e7;
+  }
+  
+  .hero-content {
+    position: absolute;
+    left: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 550px;
+    bottom: 20px;
+
+  }
+  
+  .hero-content h2 {
+    font-size: 46px;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-buttons button {
+    margin-right: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px;
+  }
+  
+  .btn-secondary {
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    border-radius: 8px;
+  }
+
+
+.btn-secondary:hover {
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+}
