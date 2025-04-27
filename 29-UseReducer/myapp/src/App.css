@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f2f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding-top: 60px;
+}
+
+.container {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 450px;
+  max-width: 90%;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 25px;
+  font-size: 26px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  transition: 0.2s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+button {
+  padding: 10px 16px;
+  font-weight: bold;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+button.reset {
+  background-color: #e74c3c;
+}
+
+button.reset:hover {
+  background-color: #c0392b;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  background: #f6f9fc;
+  padding: 12px 15px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li span {
+  color: #2c3e50;
+  font-size: 16px;
+}
+
+.todo-actions button {
+  margin-left: 10px;
+  font-size: 14px;
+  padding: 6px 12px;
+}
+
+ 
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.35);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.modal {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 320px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.modal h2 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #2c3e50;
+}
+
+.modal input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+} 
+
+
+
