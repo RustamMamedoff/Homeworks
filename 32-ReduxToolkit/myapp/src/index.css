@@ -1,0 +1,39 @@
+ form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 40px auto;
+  }
+  
+  form input, form button {
+    margin: 10px 0;
+    padding: 8px;
+  }
+  
+  nav {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background: #f2f2f2;
+  }
+  
+  nav a, nav button {
+    text-decoration: none;
+    background: none;
+    border: none;
+    color: #333;
+    cursor: pointer;
+  } 
+   
+
+   body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
