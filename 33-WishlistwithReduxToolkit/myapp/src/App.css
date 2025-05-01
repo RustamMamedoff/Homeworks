@@ -1,0 +1,208 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.app {
+  padding-bottom: 100px;
+}
+
+.navbar {
+  background: #1e1e2f;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  align-items: center;
+}
+
+.navbar .nav-left {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .nav-left a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar .nav-left a:hover {
+  text-decoration: underline;
+}
+
+.navbar .nav-right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.navbar .nav-right a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .nav-right svg {
+  margin-right: 10px;
+}
+
+.navbar .basket-count {
+  background: red;
+  color: white;
+  border-radius: 50%;
+  padding: 5px 10px;
+  margin-left: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.product-card {
+  width: 250px;
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  width: 100px;
+  height: 120px;
+  object-fit: contain;
+  margin: 10px auto;
+  display: block;
+}
+
+.product-card h3 {
+  font-size: 1em;
+  margin: 10px 0;
+}
+
+.description {
+  font-size: 0.85em;
+  color: #555;
+  text-align: center;
+}
+
+.price {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.heart {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.3em;
+  color: #ccc;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.heart.active {
+  color: red;
+}
+
+.basket-btn {
+  width: 100%;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.basket-btn:hover {
+  background-color: #0056b3;
+}
+
+.page {
+  padding: 30px;
+  font-size: 1.2em;
+}
+
+.wishlist-page {
+  padding: 30px;
+}
+
+.wishlist-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.wishlist-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.wishlist-item {
+  width: 100%;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.item-details {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.item-details img {
+  width: 80px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.delete-btn {
+  background: #ff4d4f;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: #cc0000;
+}
+
+.delete-all-btn {
+  background: crimson;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
